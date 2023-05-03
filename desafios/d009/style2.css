@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+}
+iframe{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+a{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}
+img{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}

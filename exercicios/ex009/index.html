@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="meulogo.png" type="image/x-icon">
+    <title>Imagens Dinâmicas, Áudios e Mídas</title>
+</head>
+<body>
+    <picture>
+        <source media="(max-width: 750px)"srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)"srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="A imagem flexivel funciona">
+    </picture>
+    <h1>Introduzindo áudios</h1>
+    <audio preload="none" controls autoplay loop>
+        <source src="guanacast-33.mp3" type="audio/mpeg">
+    </audio>
+    <p>Seu navegador não suporta audio <a href="guanacast-33.mp3"> Clique aqui para baixar o arquivo</a></p>
+</body>
+</html>

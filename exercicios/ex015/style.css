@@ -1,0 +1,25 @@
+@charset "utf-8";
+*{/*Este seletor é global*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: linear-gradient(to right,#A67063 05%,#A64521);
+}
+main{
+    background-color:#b46a3f;
+    border-radius: 20px;
+    box-shadow:15px 5px 10px #57331ea3 ;
+    width: 600px;
+    padding: 20px;
+    margin: auto;
+}
+h1{
+    color: #0B1A26
+}
+h2{
+    color: #0B1A26
+}
+p{
+    text-align: justify;
+    color: #0B1A26;
+}
