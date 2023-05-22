@@ -1,0 +1,33 @@
+@charset 'utf-8';
+
+body{
+    background-image: linear-gradient(to right,#F2E3D5, #f1b178);
+}
+
+.um{
+    display: flex;
+    background-color: #edd2b994;
+    padding: 20px;
+    width: 300px; 
+    border-radius: 20px;
+    
+    
+}
+.dois{
+    background-color: #edd2b994;
+    padding: 20px;
+    width: 400px;
+    border-radius:20px ;
+    margin-left: auto;
+}
+
+.links{
+    background-color: #edd2b994;
+    border-radius: 20px;
+    box-shadow: 10px 5px 20px #f2892ee2;
+    width: 50px;
+    padding: 20px;
+    text-align: justify;
+    margin-left: auto;
+    
+}

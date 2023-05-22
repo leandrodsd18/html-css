@@ -1,0 +1,23 @@
+@charset 'UTF-8';
+
+body{
+    background-image: linear-gradient(to right,#F2E3D5, #f1b178);
+}
+div{
+    background-color: #edd2b994;
+    border-radius: 20px;
+    box-shadow: 10px 5px 20px #f2892ee2;
+    width: 600px;
+    padding-left: 20px;
+    margin: auto;
+    
+}
+#principal{
+    background-color: #edd2b994;
+    border-radius: 20px;
+    box-shadow: 10px 5px 20px #f2892ee2;
+    width: 600px;
+    padding: 20px;
+    text-align: justify;
+    margin: auto;
+}
