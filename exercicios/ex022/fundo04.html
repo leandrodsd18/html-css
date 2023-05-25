@@ -12,25 +12,37 @@
         }
 
         body{
-            background: black url(imagens/wallpaper002.jpg) center no-repeat;
+            background: black url(imagens/wallpaper002.jpg) center no-repeat fixed;
             background-size: cover;
-            /*background-color: black;
+            /*
+            Shorthand para background:
+            backgroud: color + image + repeat + position + [size] + attachment;
+            O "size" esta descrito no manuel que é nessa posição, porém ainda não funcionou.
+            background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
             background-repeat: no-repeat;
             background-position: center;
-            background-size:cover;*/
+            background-size:cover;
+            background-attachment: fixed;
+            */
         }
         main{
             background-color: white;
-            width: 400px;
+            border: 1px solid black;
+            border-radius: 15px;
+            max-width: 400px;
             margin: auto;
+            margin-top: 10px;
+            margin-bottom: 10px;
             padding: 10px;
         }
         main h1{
             margin: 5px;
+            padding-bottom: 5px;
         }
         main p{
-            margin: 5px;
+            margin: 10px;
+            text-align: justify;
             text-indent: 30px;
             line-height: 1.3em;
             
