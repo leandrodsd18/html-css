@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhando imagens</title>
+</head>
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    body{
+        height: 96vh;
+        background: black url(imagens/espaco.jpg) center no-repeat fixed;
+        background-position: cover;
+    }
+    div{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        background: url(imagens/astronauta.png) center no-repeat;
+        background-size: cover;
+        height: 400px;
+        width: 400px;
+
+        transform: translate(-50%,-50%);
+
+    }
+
+</style>
+<body>
+        <div></div>    
+</body>
+</html>
