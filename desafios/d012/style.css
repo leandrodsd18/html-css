@@ -5,15 +5,17 @@
     padding: 0px;
 }
 header{
+    min-height: 30vh;
     background-color:black;
     color:white;
     text-align: center;
 }
 header h1{
     padding-top: 50px;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
 }
 header p{
+    padding-top: 15px;
     padding-bottom: 50px;
 }
 header p a{
@@ -23,30 +25,44 @@ header p a{
 header p a:hover{
     text-decoration: underline;
 }
-body p{
+body section p{
     font-size: 1.8em;
-    line-height: 5vw;
-    font-size: 1.8em;
-    margin-left: 5vh;  
+    line-height: 2em;
+    margin-left: 5vh;
 }
+.normal{
+    width: 100vw;
+    min-height: 100vh;
+    box-shadow: 5px 5px 5px 5px black;
+}
+
 
 .imagem p{
     background-color: rgba(0, 0, 0, 0.4);
     display: inline-block;
     color: white;
-    
+        
 }
-section.imagem{    
+.imagem{    
+    width: 100vw;
+    height: 80vh;
     background-color: darkgray;
     padding-top: 10vh;
-    padding-bottom: 10vh;    
+    padding-bottom: 10vh;
+    
+    
+       
 }
 #img1{
-    background: url(imagens/background001.jpg) center;
-
+    background: url(imagens/background001.jpg) center no-repeat fixed;
+    background-size: cover;
+    
 }
+
+
 #img2{
-    background: url(imagens/background002.jpg) center;
+    background: url(imagens/background002.jpg) center no-repeat fixed;
+    background-size: cover;
 }
 footer{
     background-color: black;
