@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+</head>
+<style>
+    table{
+        border-collapse:collapse;
+    }
+    td{
+        border: 1px solid black;
+        width: 150px;
+        height: 150px;
+        text-align: center;
+        vertical-align:top;
+    }
+    .linha{
+        background-color: lightgray;
+    }
+    #red{
+        background-color: red;
+    }
+
+</style>
+<body>
+    <h1>Criando minha primeira tabela</h1>
+    <h2>Mudando algumas configurações!</h2>
+    <table>
+        <tr>
+            <td id="red">A1</td>
+            <td>B1</td>
+            <td id="red">C1</td>
+        </tr>
+        <tr class="linha">
+            <td>A2</td>
+            <td id="red">B2</td>
+            <td>C2</td>
+        </tr>
+        <tr>
+            <td id="red">A3</td>
+            <td>B3</td>
+            <td id="red">C3</td>
+        </tr>
+        <tr class="linha">
+            <td>A4</td>
+            <td id="red">B4</td>
+            <td>C4</td>
+        </tr>
+    </table>
+</body>
+</html>
