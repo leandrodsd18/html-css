@@ -4,9 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trabalhando com tabelas grandes</title>
+    <title>Tabelas Grandes</title>
 </head>
 <style>
+    h1{
+        text-align: center;
+    }
+    caption{
+        font-size: 1.5em;
+        padding: 10px;
+        background-color: rgba(211, 211, 211, 0.5);
+    }
     table{
         margin: auto;
         border-collapse: collapse;
@@ -16,23 +24,49 @@
         border: 1px solid black;
         padding: 10px;
     }
-    th{
+    tbody tr:nth-child(odd){
         background-color: lightgray;
+    }
+    /*Foi usado a pseudoclasse nth-child para dar o efeiro zebado na tabela!
+    seletor para todas as TRs que estão no TBODY + o argumento odd(impar) então todas as linhas impares da tabela ficaram com o backgraound-color: lightgray*/
+    tbody tr:nth-child(even){
+        background-color: darkgray
+    }
+    /*Neste segundo seletor usamos o argumento (even) para mudar as linhas pares.
+    Além desses dois argumento podemos selecionar de quantas em quantas linhas o efeito vai funcionar passando como paramentro "xn"
+    ex:para o background-colo ir mudando a cada 3 linhas vamos usar o codigo
+    */
+    th{
+        background-color: rgb(100, 100, 100, 0.5);
     }
     .num{
         text-align: right;
     }
     tfoot{
-        background-color: lightgray;
+        background-color: rgb(100, 100, 100, 0.5);
     }
 </style>
 <body>
+    <h1>Trabalhando com tabelas grandes</h1>
+    <!--
+        ANATOMIA PARA TABELAS GRANDES
+
+        TABLE
+            CAPTION (É A LEGENDA DA TABELA, VAI FICAR POSSICIONADA NO TOPO DA TABELA POR  FORA)
+            THEAD
+                TR, TD, TH
+            TBODY
+                TR, TD, TH
+            TFOOT
+                TR, TD, TH
+        /TABLE            
+    -->
     <table>
         <caption>População brasileira por estado</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
             </tr>
         </thead>
         <tbody>
@@ -147,7 +181,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <td>Total</td>
+                <th scope="row">Total</th>
                 <td class="num"><strong>190.755.799</strong></td>
             </tr>
         </tfoot>
