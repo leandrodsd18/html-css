@@ -19,11 +19,18 @@
         margin: auto;
         border-collapse: collapse;
         width: 60vw;
+        position: relative;
+    }
+    thead{
+        position: sticky;
+        top: -1px;
+        background-color:rgb(100,100,100);
     }
     td, th{
         border: 1px solid black;
         padding: 10px;
     }
+   
     tbody tr:nth-child(odd){
         background-color: lightgray;
     }
@@ -34,9 +41,15 @@
     }
     /*Neste segundo seletor usamos o argumento (even) para mudar as linhas pares.
     Além desses dois argumento podemos selecionar de quantas em quantas linhas o efeito vai funcionar passando como paramentro "xn"
-    ex:para o background-colo ir mudando a cada 3 linhas vamos usar o codigo
+    ex:para o background-color ir mudando a cada 3 linhas vamos usar o codigo
+        tbody tr:nth-child('3n'){
+            background-color: rgb(100, 100, 100, 0.5);
+        }
     */
     th{
+        background-color: rgb(100, 100, 100, 0.5);
+    }
+    #rodape{
         background-color: rgb(100, 100, 100, 0.5);
     }
     .num{
@@ -182,7 +195,7 @@
         <tfoot>
             <tr>
                 <th scope="row">Total</th>
-                <td class="num"><strong>190.755.799</strong></td>
+                <td class="num" id="rodape"><strong>190.755.799</strong></td>
             </tr>
         </tfoot>
     </table>
