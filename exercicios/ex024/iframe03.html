@@ -10,29 +10,46 @@
     body{
         font-family: Arial, Helvetica, sans-serif;
     }
-    a{
-        display: block;
-        margin-left: 30px;
+  
+    p{
+        padding: 15px;
+        text-align: justify;
     }
+   a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+   }
+   a:hover{
+    text-decoration: underline;
+   }
     iframe{
         width: 90vh;
         height: 300px;
         display: block;
         margin: auto;
+        border:2px solid black;
     }
 </style>
+<!--Exercíco para abrir uma pagina interna dentro do iframe
+nos dois primeiros links são páginas que estão dentro da mesma pasta(ex024) No terceiro link temos uma pagina que está ainda em nosso próprio repositório porém em outra pasta por isso foi usado o caminho com (../../) pois foi preciso sair de uma pasta e entrar em outra para econtrar a pagina-->
 <body>
     <h1>Navegação dentro do iframe</h1>
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis aspernatur atque sit quis molestias provident est quos, autem nostrum quibusdam sapiente minima omnis dicta deserunt ipsam libero maiores quod Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus ex vero laboriosam sed dolores nam unde, nulla explicabo alias suscipit, quis quos ipsum, quasi officia doloribus ab rem doloremque. Eaque. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit nobis odit, et esse dolor perferendis iste culpa quisquam vitae, porro vero similique natus nam reiciendis. A amet optio expedita repellat.</p>
 
-    <a href="pag01.html" target="frame">pagina 1</a>
-    <a href="iframe01.html" target="frame">pagina 2</a>
-    <a href="../../desafios/d010/pagina1.html" target="frame">pagina 3</a>
+    <nav>
+        <ul>
+            <li><a href="pag01.html" target="frame">Página 1</a></li>
+            <li><a href="iframe01.html" target="frame">Página 2</a></li>
+            <li><a href="../../desafios/d010/pagina1.html" target="frame">Página 3</a></li>
+        </ul>
+    </nav>
 
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis aspernatur atque sit quis molestias provident est quos, autem nostrum quibusdam sapiente minima omnis dicta deserunt ipsam libero maiores quod Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus ex vero laboriosam sed dolores nam unde, nulla explicabo alias suscipit, quis quos ipsum, quasi officia doloribus ab rem doloremque. Eaque. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit nobis odit, et esse dolor perferendis iste culpa quisquam vitae, porro vero similique natus nam reiciendis. A amet optio expedita repellat.</p>
-    <iframe src="pag01.html" name="frame" >
+    <iframe src="../../desafios/d010/pagina1.html" name="frame" >
         <p>Seu navegador não é compativel com isto!</p>
     </iframe>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, assumenda! At obcaecati mollitia voluptate placeat error sit sunt quasi quae aut nulla voluptatibus rerum laudantium consequatur impedit asperiores, neque doloribus. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim vero dolores at velit! Mollitia iste fugiat error, eaque praesentium placeat amet suscipit. Velit voluptatibus eos inventore, laboriosam eligendi nostrum voluptas?</p>
     
 </body>
 </html>
