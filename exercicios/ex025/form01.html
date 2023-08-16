@@ -7,15 +7,16 @@
 </head>
 <body>
     <h1>Meu primeiro Forumulário</h1>
-    <form action="cadastro.php">
+<!--Tudo que está dentro das tags <form></form> sera o formulario, o atributo action indica para qual linguagem os dados serão enviados-->
+    <form action="cadastro.php" method="get">
+<!--A tag <label> é para asosciar a etiqueta com o input (caixa de texto por ex...)-->        
         <p> <label for="inome">Nome:</label> 
             <input type="text" name="Nome" id="inome">
         </p>
-        <p><label for="inome">Sobrenome:</label> 
+        <p><label for="isobrenome">Sobrenome:</label> 
             <input type="text" name="Sobrenome" id="isobrenome">
         </p>
         <input type="submit" value="Enviar">
-    </form>
-    
+    </form>    
 </body>
 </html>
