@@ -1,0 +1,20 @@
+@charset 'utf-8';
+
+/*Configurações gerais*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace
+}
+html, body{
+    width: 98vw;
+    height: 98vh;
+    background-color: #233eff;
+    color: white;
+
+}
+h1{
+    text-align: center;
+    padding: 40px;
+}

@@ -1,0 +1,11 @@
+@charset 'utf-8';
+
+/*estilo para telas em paisagem*/
+
+body{
+    background-image: url(imagens/cev-landscape.jpg);
+    background-position: center bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
