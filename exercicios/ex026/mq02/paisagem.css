@@ -1,11 +1,8 @@
 @charset 'utf-8';
 
-/*estilo para telas em paisagem*/
+/*estilo para telas em modo paisagem (landscape)*/
 
 body{
     background-image: url(imagens/cev-landscape.jpg);
-    background-position: center bottom;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
+    
 }

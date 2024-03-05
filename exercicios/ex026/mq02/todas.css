@@ -1,6 +1,6 @@
 @charset 'utf-8';
 
-/*Configurações gerais*/
+/*Configurações gerais para todas as telas*/
 
 *{
     margin: 0px;
@@ -8,13 +8,19 @@
     font-family: 'Courier New', Courier, monospace
 }
 html, body{
-    width: 98vw;
-    height: 98vh;
+    width: 100vw;
+    height: 100vh;
     background-color: #233eff;
     color: white;
 
 }
+body{
+    background-position: center bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 h1{
     text-align: center;
-    padding: 40px;
+
 }
