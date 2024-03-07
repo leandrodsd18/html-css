@@ -1,2 +1,60 @@
 @charset 'utf-8';
 
+@media print{
+    *{
+        font-family: 'Courier New', Courier, monospace;
+    }
+    body{
+        background-image: url(../imagens/back-print.jpg);
+    }
+    h1{
+        text-shadow: none;
+        color: black;
+    }
+    main{
+        border: 2px solid black;
+    }
+    main::after{
+        content: 'fui eu que fiz isso aqui, ficou bom';
+        text-decoration: overline;
+    }
+    #phone{display: none;}
+    #tablet{display: none;}
+    #print{display: block;}
+    #desktop{display: none;}
+    #tv{display: none;}
+}
+
+@media screen and (min-width: 778px) and (max-width: 992px){
+    body{
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+    #phone{display: none;}
+    #tablet{display: block;}
+    #print{display: none;}
+    #desktop{display: none;}
+    #tv{display: none;}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    body{
+        background-image: url(../imagens/back-pc.jpg);
+    }
+    #phone{display: none;}
+    #tablet{display: none;}
+    #print{display: none;}
+    #desktop{display: block;}
+    #tv{display: none;}
+    
+}
+
+@media screen and (min-width: 1200px){
+    body{
+        background-image: url(../imagens/back-tv.jpg);
+    }
+    #phone{display: none;}
+    #tablet{display: none;}
+    #print{display: none;}
+    #desktop{display: none;}
+    #tv{display: block;}
+}

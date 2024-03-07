@@ -34,10 +34,7 @@ img{
     display: block;
     margin: auto;
 }
-#phone{
-    display: block;
-    
-}
+#phone{display: block;}
 #tablet{display: none;}
 #print{display: none;}
 #desktop{display: none;}
