@@ -1,0 +1,22 @@
+@charset 'utf-8';
+
+.container{
+    background-color: lightgrey;
+    height: 500px;
+    
+    display: flex;
+    flex-flow: row nowrap;
+
+    /*justify-content => alinha os itens do container no eixo horizontal que chamamos de main-axis que é o eixo principal.
+    aling-items => alinha os itens do contanider no eixo vertical, que chamamos de cross-axis ou eixo transversal*/
+    
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.item{
+    background-color: red;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;    
+}

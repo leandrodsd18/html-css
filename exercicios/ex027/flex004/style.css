@@ -1,0 +1,45 @@
+@charset 'utf-8';
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightsalmon;
+}
+main{
+    background-color: lightcoral;
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    background-color: lightgreen;
+    width: 80%;
+    height: 80%;
+    position: relative;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+section > h1{
+    position: absolute;
+    top: 1%;
+    left: 30%;
+}
+
+div{
+    background-color: lightblue;
+    width: 50%;
+    height: 50%;
+
+    text-align: center;
+}

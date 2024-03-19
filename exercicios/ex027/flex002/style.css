@@ -1,0 +1,22 @@
+@charset 'utf-8';
+
+.container{
+    background-color: lightgrey;
+    
+    display: flex;
+     /*Short hand
+    flex-flow: row wrap
+    A W3C recomenda o uso de flex-flow*/
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+    
+}
+
+.item{
+    background-color: red;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    flex: auto;    
+}
