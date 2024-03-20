@@ -7,10 +7,10 @@
     display: flex;
     flex-flow: row nowrap;
 
-    /*justify-content => alinha os itens do container no eixo horizontal que chamamos de main-axis que é o eixo principal.
-    aling-items => alinha os itens do contanider no eixo vertical, que chamamos de cross-axis ou eixo transversal*/
+    /*justify-content => alinha os itens do container no que chamamos de main-axis que é o eixo principal.
+    aling-items => alinha os itens do contanider no que chamamos de cross-axis ou eixo transversal*/
     
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;    
 }
 

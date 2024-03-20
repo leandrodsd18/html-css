@@ -1,0 +1,22 @@
+@charset 'utf-8';
+
+.container{
+    background-color: black;
+    height: 400px;    
+
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-around ;
+    justify-content: space-between;
+
+    
+}
+
+.item{
+    background-color: rgb(255, 81, 0);
+    border: 1px solid black;
+    text-align: center;
+    width: 80PX;
+    height: 80PX;
+    padding: 10px; 
+}
