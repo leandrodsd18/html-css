@@ -1,0 +1,43 @@
+@charset 'utf-8';
+
+.container{
+    background-color: lightgrey;
+    width: 100vw;
+    height: 50vh;
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: space-around; 
+}
+
+.item{
+    background-color: red;
+    width: 80px;
+    height: 80px;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;    
+}
+#iten1{
+    order: 1;
+}
+#iten2{
+    order: 2;
+}
+#iten3{
+    order: 3;
+}
+#iten4{
+    order: 4;
+
+}
+#iten5{
+    order: 5;
+}
+#iten6{
+    order: 6;
+}
+#iten7{
+    order: 7;
+}

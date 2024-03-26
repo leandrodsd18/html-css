@@ -6,7 +6,8 @@
 
     display: flex;
     flex-flow: row wrap;
-    align-content: space-around ;
+    /*align-content => alinha os itens no sentindo do eixo transversal quando eles estão empacotados Ex. itens dentro de um container que sofreu uma quebra de linha.*/
+    align-content: space-between;
     justify-content: space-between;
 
     
