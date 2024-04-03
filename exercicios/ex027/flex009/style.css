@@ -17,7 +17,7 @@
 
     /*flex-shrink => define se o elemento pode encolher
       flex-grow => define se o elemento pode aumentar. Valores diferentes de 0 e 1 são interpretados como proporções, EX. Se tiver um flex-grow:1 e em outro elemento um flex-grow:4, o elemeto que tem o 4 vai crescer numa proporção de 4 vezes mais que o elemento com 1.
-      shorthand => flex-grow + flex-shrink + flex-basis*/
+      shorthand => flex: flex-grow + flex-shrink + flex-basis*/
     flex-shrink: 1;
     flex-grow: 1;
 }   
