@@ -60,10 +60,13 @@ main > p{
 
 @media screen and (max-width: 668px) {
     header{       
-        flex-flow: column;
-    }
-    ul{
-        
         flex-flow: column wrap;
+    }
+    ul{      
+        flex-flow: column wrap;
+    }
+    li{
+        margin: 15px;
+    
     }
 }
